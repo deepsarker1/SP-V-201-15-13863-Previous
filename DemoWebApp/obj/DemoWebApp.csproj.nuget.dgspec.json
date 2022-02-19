@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deeps\\source\\repos\\DemoWebApp\\DemoWebApp\\DemoWebApp.csproj": {}
+    "D:\\Github Cloned Projects\\SP-V-DemoWebApp\\DemoWebApp\\DemoWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deeps\\source\\repos\\DemoWebApp\\DemoWebApp\\DemoWebApp.csproj": {
+    "D:\\Github Cloned Projects\\SP-V-DemoWebApp\\DemoWebApp\\DemoWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deeps\\source\\repos\\DemoWebApp\\DemoWebApp\\DemoWebApp.csproj",
+        "projectUniqueName": "D:\\Github Cloned Projects\\SP-V-DemoWebApp\\DemoWebApp\\DemoWebApp.csproj",
         "projectName": "DemoWebApp",
-        "projectPath": "C:\\Users\\deeps\\source\\repos\\DemoWebApp\\DemoWebApp\\DemoWebApp.csproj",
+        "projectPath": "D:\\Github Cloned Projects\\SP-V-DemoWebApp\\DemoWebApp\\DemoWebApp.csproj",
         "packagesPath": "C:\\Users\\deeps\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deeps\\source\\repos\\DemoWebApp\\DemoWebApp\\obj\\",
+        "outputPath": "D:\\Github Cloned Projects\\SP-V-DemoWebApp\\DemoWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deeps\\AppData\\Roaming\\NuGet\\NuGet.Config",
