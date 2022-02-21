@@ -40,9 +40,11 @@ namespace DemoWebApp.Controllers
             {
                 return NotFound();
             }
-
+            
             return View(student);
         }
+            
+        
 
         // GET: Students/Create
         public IActionResult Create()
@@ -55,7 +57,7 @@ namespace DemoWebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Age,Gender,PhoneNo,Email,University")] Student student)
+        public async Task<IActionResult> Create([Bind("Id,Name,BirthDate,Gender,PhoneNo,Email,University")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +89,7 @@ namespace DemoWebApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Age,Gender,PhoneNo,Email,University")] Student student)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,BirthDate,Gender,PhoneNo,Email,University")] Student student)
         {
             if (id != student.Id)
             {
